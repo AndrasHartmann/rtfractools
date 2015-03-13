@@ -1,6 +1,6 @@
 RTFracTools
 ==============
-Real-time fractal analysing package
+Real-time fractal analysing package written in MATLAB
 
 Cite this software
 --------------

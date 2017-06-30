@@ -1,0 +1,121 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration build-checksum="4288943775" file="/Users/andras.hartmann/Archive/rtfractools/RTFracTools.prj" location="/Users/andras.hartmann/Archive/rtfractools" name="RTFracTools" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>RTFracTools</param.appname>
+    <param.authnamewatermark>Andras Hartmann</param.authnamewatermark>
+    <param.email>andras.hartmann@gmail.com</param.email>
+    <param.company />
+    <param.summary>Real-time fractal analysing package</param.summary>
+    <param.description>Real-time fractal analysing package as described in
+Hartmann, A., Mukli, P., Nagy, Z., Kocsis, L., Hermán, P., &amp; Eke, A. (2013).
+Real-time fractal signal processing in the time domain. Physica A:
+Statistical Mechanics and Its Applications, 392(1), 89–102.
+doi:10.1016/j.physa.2012.08.002</param.description>
+    <param.screenshot>/Users/andras.hartmann/Archive/screenshot.jpg</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.output>${PROJECT_ROOT}/RTFracTools.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid>15279732-162b-42ac-ace1-3a88ca2fc7d6</param.guid>
+    <param.exclude.filters>% List files contained in your toolbox folder that you would like to exclude
+% from packaging.  Excludes should be listed relative to the toolbox folder.
+% Some examples of how to specify excludes are provided below:
+%
+% A single file in the toolbox folder:
+% .svn
+%
+% A single file in a subfolder of the toolbox folder:
+% example/.svn
+%
+% All files in a subfolder of the toolbox folder:
+% example/*
+%
+% All files of a certain name in all subfolders of the toolbox folder:
+% **/.svn
+%
+% All files matching a pattern in all subfolders of the toolbox folder:
+% **/*.bak
+%
+.git</param.exclude.filters>
+    <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;examples/&gt;</param.examples>
+    <param.demosxml />
+    <param.apps />
+    <param.docs />
+    <unset>
+      <param.company />
+      <param.version />
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.demosxml />
+      <param.apps />
+      <param.docs />
+    </unset>
+    <fileset.rootdir>
+      <file>/Users/andras.hartmann/Archive/rtfractools</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}/LICENSE</file>
+      <file>${PROJECT_ROOT}/README.md</file>
+      <file>${PROJECT_ROOT}/rt_bdswv.m</file>
+      <file>${PROJECT_ROOT}/rt_demo.m</file>
+      <file>${PROJECT_ROOT}/rt_dfa.m</file>
+      <file>${PROJECT_ROOT}/signal.mat</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/andras.hartmann/Archive/rtfractools" name="RTFracTools.mltbx" optional="false">/Users/andras.hartmann/Archive/rtfractools/RTFracTools.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2015b.app</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.11.4</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
